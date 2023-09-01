@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes expand {
+   0% {
+     transform: scale(1);
+   }
+   100% {
+     transform: scale(1.1);
+   }
+ }
+
+@layer base {  /*adding global styles in tailwind*/
+   button {
+    @apply border border-black rounded-xl px-5 
+   }
+}
